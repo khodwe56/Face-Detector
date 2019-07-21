@@ -21,6 +21,6 @@ There are other optional arguments:
 
 -w width of the rectangle.
 
--s Scaling factor for image for more information please refer to openCV Documentation.
+-s Scaling factor for image, for more information please refer to openCV Documentation.
 
--n Minimum Neighbors for Cascade config.. for more information please refer to openCV Documentation.
+-n Minimum Neighbors for Cascade configuration, for more information please refer to openCV Documentation.
