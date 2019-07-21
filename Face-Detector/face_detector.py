@@ -38,7 +38,7 @@ face_cascade = cv2.CascadeClassifier('Architecture/haarcascade_frontalface_defau
 faces_recieved_from_cascade = face_cascade.detectMultiScale(gray_image, args['scaling_factor'], args['min_neighbors'])
 
 for (x,y,w,h) in faces_recieved_from_cascade:
-    cv2.rectangle(image,(x,y),(x+w,y+h),(args['red_scheme'],args['green_scheme'],args['blue_scheme']),args['rectangle_width']) 
+    cv2.rectangle(image,(x,y),(x+w,y+h),(args['blue_scheme'],args['green_scheme'],args['red_scheme']),args['rectangle_width']) 
     
 image = cv2.resize(image,(500,500))
 cv2.imshow('detected_image',image)
