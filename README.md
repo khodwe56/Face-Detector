@@ -1,11 +1,11 @@
 # Face-Detector
 
-Detects face of any given Image
+Detects face of a person in any given Image
 
 This face detector is written so that a face can be detected in an image using only command line.
 
 To run this code, in command line run:
-
+cd Face-Detector
 python face_detector.py -i path_to_your_image
 
 
